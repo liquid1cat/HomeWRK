@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-color: dimgrey;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    opacity: 0.8;
+    color: blue;
+}
+.header-image{
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px black solid;
+}
+.header-h{
+    margin: 0 25% 0 25%;
+    width: 50%;
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    border-radius: 20px;
+    opacity: 0.7;
+    background-color: black;
+}
+.new-main{
+    float: left;
+    border: black 2px solid;
+    max-width: 600px;
+    margin-left: 10px;
+    height: 450px;
+    margin-bottom: 10px;
+}
+.all-news{
+    margin-left: 1.6%;
+    width: content-box;
+    height: content-box;
+}
+.footer{
+    margin-left: 100px;
+    height: 100px;
+    width: 30px;
+
+}
+.new-container{
+    margin-left: 25%;
+    height: 500px;
+    width: 850px;
+}
+.new-text{
+    border-left: 2px solid black;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.back{
+    position: fixed;
+    left: 0; bottom: 0;
+    width: 300px;
+    height: 300px;
+    background-color: slategray;
+    float: left;
+    border-radius: 300px;
+    color: white;
+}
+.back:hover{
+    opacity: 0.8;
+}
+.back p{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 125px;
+    font-size: 40px;
+}
+.comments{
+    font-size: 20px;
+}
+.comment-name{
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    padding: 5px;
+}
+.comment-text{
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
+    padding: 5px;
+
+}
